@@ -1,11 +1,11 @@
-# A varnish 3 buildout #
+# A Solr 4.6 buildout #
 
-[![Build Status](https://travis-ci.org/RedTurtle/deployments.buildout.varnish.png?branch=master)](https://travis-ci.org/RedTurtle/deployments.buildout.varnish)
+[![Build Status](https://travis-ci.org/RedTurtle/deployments.buildout.solr.png?branch=master)](https://travis-ci.org/RedTurtle/deployments.buildout.solr)
 
 [TOC]
 
 ## Introduction ##
-This is the a very basic buildout template to run varnish.
+This is the a very basic buildout template to run solr.
 
 ## I am feeling lucky! ##
 Lucky people read the documentation,
@@ -19,9 +19,9 @@ To start the buildout:
 ```bash
 python2.7 bootstrap.py &&  ./bin/buildout
 ```
-To launch varnish:
+To launch solr:
 ```bash
-./bin/varnish
+./bin/solr
 ```
 
 ## Requirements ##
