@@ -6,4 +6,4 @@ install:
   - pip install --upgrade setuptools
   - python bootstrap.py -c ./.travis.cfg
 script:
-  - bin/buildout
+  - bin/buildout -c .travis.cfg
