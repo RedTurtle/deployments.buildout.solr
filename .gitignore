@@ -3,7 +3,9 @@ develop-eggs/*
 downloads/*
 eggs/*
 etc/*
-etc/*
+parts/*
+var/*
 include
 lib
 local/*
+.installed.cfg
